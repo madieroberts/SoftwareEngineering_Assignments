@@ -51,7 +51,7 @@ class SandwichMachine:
 
 
     def check_resources(self, ingredients):
-        """Check if there are enough resources for the sandwich"""
+        """Checks if there are enough resources for the sandwich"""
         for item in ingredients:
             if ingredients[item] > self.machine_resources[item]:
                 print(f"Sorry there is not enough {item}.")
