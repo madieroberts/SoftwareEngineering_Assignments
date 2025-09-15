@@ -81,7 +81,7 @@ class SandwichMachine:
 
 
     def make_sandwich(self, sandwich_size, ingredients):
-        """Deduct resources and make the sandwich"""
+        """Deducts resources and make the sandwich"""
         for item in ingredients:
             self.machine_resources[item] -= ingredients[item]
         print(f"{sandwich_size} sandwich is ready. Bon appetit!")
