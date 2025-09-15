@@ -97,7 +97,7 @@ class SandwichMachine:
 ### Make an instance of SandwichMachine class and write the rest of the codes ###
 
 
-#Instance of SandwichMachine
+#Instance of the SandwichMachine
 machine = SandwichMachine(resources)
 
 
