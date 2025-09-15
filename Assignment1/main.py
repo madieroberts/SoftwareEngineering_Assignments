@@ -70,7 +70,7 @@ class SandwichMachine:
 
 
     def transaction_result(self, coins, cost):
-        """Checks if inserted coins cover the sandwich cost"""
+        """Check if inserted coins cover the sandwich cost"""
         if coins >= cost:
             change = round(coins - cost, 2)
             print(f"Here is ${change} in change.")
