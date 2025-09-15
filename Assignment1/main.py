@@ -60,7 +60,7 @@ class SandwichMachine:
 
 
     def process_coins(self):
-        """Calculates total money from coins inserted"""
+        """Calculate total money from coins inserted"""
         print("Please insert coins.")
         dollars = int(input("how many large dollars?: ")) * 1.0
         half_dollars = int(input("how many half dollars?: ")) * 0.5
