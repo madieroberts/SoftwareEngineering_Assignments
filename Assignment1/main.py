@@ -88,7 +88,7 @@ class SandwichMachine:
 
 
     def report(self):
-        # Show resources
+        # Shows resources
         print(f"Bread: {self.machine_resources['bread']} slice(s)")
         print(f"Ham: {self.machine_resources['ham']} slice(s)")
         print(f"Cheese: {self.machine_resources['cheese']} ounce(s)")
